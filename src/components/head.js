@@ -1,9 +1,12 @@
 import { useEffect } from "react";
 import gsap from 'gsap';
 
+import "./stylo.css";
+
 function Head() {
+
     useEffect(()=>{
-      const open = document.querySelector('.container');
+		const open = document.querySelector('.container');
 		const close = document.querySelector('.close');
 		var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
 		open.addEventListener('click', () => {
@@ -21,26 +24,27 @@ function Head() {
 		close.addEventListener('click', () => {
 			tl.reverse();
 		});
-
-    })
+		console.log("dotaro");
+    },[])
   return (
     <div className="navbar">
-    <div className="container">
-		  <div className="bars"></div>
-	  </div>
-	  <h1>KOORA</h1>
-	  <nav>
-		    <h2>LOGO MTA3 SITE</h2>
-		    <div className="close">
-			    <div></div>
-		    </div>
-		    <ul>
-			      <li><a href="#">Home</a></li>
-			      <li><a href="#">About</a></li>
-			      <li><a href="#">Projects</a></li>
-			      <li><a href="#">Contact</a></li>
-		      </ul>
-	  </nav>
+	<div className="container">
+		<div className="bars"></div>
+	</div>
+
+	<h1>KOORA</h1>
+	<nav>
+		<h2>LOGO MTA3 SITE</h2>
+		<div className="close">
+			<div></div>
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 	
 
     </div>
