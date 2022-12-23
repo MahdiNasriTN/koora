@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vh;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 2s ease-in;
+    animation: App-logo-spin infinite 3s ease-in;
   }
 }
 
@@ -26,20 +26,26 @@
 }
 
 .logoclass {
-  border-radius: 50%;
+  mix-blend-mode: lighten;
+   mix-blend-mode: lighten;
+
+
   transition: all 0.4s ease-in;
 }
 
 @keyframes App-logo-spin {
   0%{
-    opacity:0;
+    opacity:1;
+
   }
   50%{
-    opacity:1;
+    opacity:4.5;
+  
   }
   100%{
 
-    opacity: 0;
+    opacity: 1;
+    
 
   }
 

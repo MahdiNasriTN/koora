@@ -1,6 +1,6 @@
 
 import Head from './components/head';
-import logo from './Images/logo.png';
+import logo from './Images/anim.gif';
 
 import './App.css';
 
