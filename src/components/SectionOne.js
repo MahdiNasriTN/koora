@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import gsap from 'gsap';
-
+import 'SectionOne.css';
 
 
 function SectionOne() {
