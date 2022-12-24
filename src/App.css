@@ -17,7 +17,7 @@
 
 .App-header {
 
-  background-color: #384D48;
+  background-color: #384D48  ;
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -30,7 +30,7 @@
 }
 
 .logoclass {
-  mix-blend-mode: lighten;
+  mix-blend-mode:lighten;
   transition: all 4s ease-in;
   z-index: 101;
 }

@@ -8,8 +8,7 @@ function Home() {
   return (
   
       <Head></Head>
-    
-       
+
       
 
   );

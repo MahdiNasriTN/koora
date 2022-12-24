@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import Home from './Home';
-
+import SectionOne from'./components/SectionOne';
 import reportWebVitals from './reportWebVitals';
 import Loading from './components/loading';
 
@@ -12,6 +12,7 @@ root.render(
 
     <Loading></Loading>
     <Home></Home>
+    <SectionOne></SectionOne>
     </React.StrictMode>
   
 );

@@ -1,0 +1,11 @@
+.SectionOne {
+	font-family: "Montserrat", sans-serif;
+	background: #384D48 ;
+	color :#C7CEDB; 
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
