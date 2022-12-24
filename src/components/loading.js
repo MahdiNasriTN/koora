@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 
 function Loading() {
     useEffect(() => {
+      
  gsap.to(".App",{y:"-100vh",ease: "power2.inOut",delay:0.5,duration:2.29});
 
     },[]);

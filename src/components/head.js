@@ -6,6 +6,7 @@ import "./stylo.css";
 function Head() {
 
     useEffect(()=>{
+		
 		const open = document.querySelector('.container');
 		const close = document.querySelector('.close');
 		var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
@@ -24,16 +25,14 @@ function Head() {
 		close.addEventListener('click', () => {
 			tl.reverse();
 		});
-		console.log("dotaro");
     },[])
   return (
     <div className="navbar">
 	<div className="container">
 		<div className="bars"></div>
 	</div>
-
 	<h1>KOORA</h1>
-	<nav>
+	<nav id="navdiv">
 		<h2>LOGO MTA3 SITE</h2>
 		<div className="close">
 			<div></div>

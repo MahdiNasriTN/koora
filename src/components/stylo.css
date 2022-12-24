@@ -6,7 +6,6 @@
 
 #root{
 	font-family: "Montserrat", sans-serif;
-	background: #384D48 ;
 	color :#C7CEDB; 
 	width: 100%;
 	min-height: 100vh;
@@ -18,8 +17,7 @@
 
 .navbar{
 	font-family: "Montserrat", sans-serif;
-	background: #384D48 ;
-	color :#C7CEDB; 
+	color :black; 
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
@@ -57,7 +55,7 @@ h1 {
 .bars{
 	width: 30px;
 	height: 4px;
-	background: #C7CEDB  ;
+	background: #384D48;
 }
 
 .bars::before,
@@ -66,7 +64,7 @@ h1 {
 	position: absolute;
 	width: 30px;
 	height: 4px;
-	background: #C7CEDB  ;
+	background: #384D48 ;
 }
 
 .bars::before{
@@ -81,7 +79,7 @@ nav{
 	position: absolute;
 	width: 100%;
 	height: 30px;
-	background: #C7CEDB;
+	background: #384D48 ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -97,7 +95,7 @@ nav ul li{
 }
 
 nav ul li a{
-	color: #384D48;
+	color: #C7CEDB;
 	font-size: 2em;
 	text-decoration: none;
 	font-weight: 500;
@@ -165,7 +163,7 @@ nav .close div::after{
 
 nav .close:hover div::before,
 nav .close:hover div::after{
-	background: #384D48 ;
+	background: #C7CEDB  ;
 }
 
 @media (max-width: 992px){
