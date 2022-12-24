@@ -1,21 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
-#root{
-	font-family: "Montserrat", sans-serif;
-	color :#C7CEDB; 
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-}
 
 .navbar{
+	
 	font-family: "Montserrat", sans-serif;
 	color :black; 
 	width: 100%;
@@ -24,23 +10,38 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
+	background-image: url("../Images/section.webp") ;
 }
 
-body {
-	font-family: "Montserrat", sans-serif;
-	background: #384D48 ;
-	color :#C7CEDB; 
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+
+.logo{
+
+	height: 5vh;
+	border-radius: 50%;
+	display: inline;
 }
 
+.mainlogo{
+
+	color: #C7CEDB;
+	
+}
 h1 {
 	font-size: 40px;
   text-align: center;
+
+}
+
+.container1{
+	position: fixed;
+	display: flex;
+	gap: 0.7em;
+	cursor: pointer;
+	z-index: 50;
+	top: 5%;
+	left: 5%;
+	width: 30px;
+	height: 20px;
 }
 
 .container{
@@ -55,7 +56,8 @@ h1 {
 .bars{
 	width: 30px;
 	height: 4px;
-	background: #384D48;
+	background: #C7CEDB;
+	position: fixed;
 }
 
 .bars::before,
@@ -64,7 +66,7 @@ h1 {
 	position: absolute;
 	width: 30px;
 	height: 4px;
-	background: #384D48 ;
+	background: #C7CEDB ;
 }
 
 .bars::before{
@@ -76,10 +78,10 @@ h1 {
 }
 
 nav{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 30px;
-	background: #384D48 ;
+	background: #636363;
 	display: flex;
 	justify-content: center;
 	align-items: center;

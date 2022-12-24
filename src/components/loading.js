@@ -8,7 +8,10 @@ import { useEffect } from 'react';
 function Loading() {
     useEffect(() => {
       
- gsap.to(".App",{y:"-100vh",ease: "power2.inOut",delay:0.5,duration:2.29});
+   gsap.to(".App",{y:"-100vh",ease: "power2.inOut",delay:0.5,duration:2.29}).then(() =>{
+    document.querySelector('body').style.overflow="visible";
+   });
+ 
 
     },[]);
   return (

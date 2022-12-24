@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import "./index.css"
 import Home from './Home';
 import SectionOne from'./components/SectionOne';
 import reportWebVitals from './reportWebVitals';

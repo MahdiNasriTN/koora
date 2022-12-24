@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import gsap from 'gsap';
 
+import logo from "../Images/logo.png";
 import "./stylo.css";
 
 function Head() {
@@ -28,12 +29,18 @@ function Head() {
     },[])
   return (
     <div className="navbar">
-	<div className="container">
-		<div className="bars"></div>
-	</div>
-	<h1>KOORA</h1>
+		<div className="container1">
+			<img src={logo} className="logo" />
+			<h1 className="mainlogo">KOORA</h1>
+		</div>
+		<div className="container">
+			<div className="bars"></div>
+		</div>
+	
+
 	<nav id="navdiv">
-		<h2>LOGO MTA3 SITE</h2>
+		
+
 		<div className="close">
 			<div></div>
 		</div>
