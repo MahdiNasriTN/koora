@@ -9,8 +9,8 @@ function SectionOne() {
     },[])
   return (
     <section className="SectionOne">
-        <div>
-            <h1>STADUIM</h1>
+      	<div className="mainwelcome">
+        Bienvenue Dans L'espace Football
         </div>
     </section>
   );

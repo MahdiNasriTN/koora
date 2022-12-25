@@ -13,6 +13,7 @@ root.render(
     <Loading></Loading>
     <Home></Home>
     <SectionOne></SectionOne>
+    <SectionOne></SectionOne>
     </React.StrictMode>
   
 );

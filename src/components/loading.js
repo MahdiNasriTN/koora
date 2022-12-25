@@ -2,18 +2,18 @@
 
 import logo from '../Images/anim.gif';
 import gsap from 'gsap';
-import '../App.css';
+import './loading.css';
 import { useEffect } from 'react';
 
 function Loading() {
     useEffect(() => {
-      
+      window.scrollTo(0, 0);
    gsap.to(".App",{y:"-100vh",ease: "power2.inOut",delay:0.5,duration:2.29}).then(() =>{
     document.querySelector('body').style.overflow="visible";
-   });
- 
+   }); },[]);
 
-    },[]);
+
+
   return (
     <div className="App">
     

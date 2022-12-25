@@ -2,11 +2,14 @@ import { useEffect } from "react";
 import gsap from 'gsap';
 
 import logo from "../Images/logo.png";
-import "./stylo.css";
+import "./headd.css";
 
 function Head() {
 
     useEffect(()=>{
+		window.onbeforeunload = () => {
+			window.scrollTo(0, 0);
+		  };
 		
 		const open = document.querySelector('.container');
 		const close = document.querySelector('.close');
@@ -16,10 +19,11 @@ function Head() {
 				tl.play();
 			} else {
 				tl.to('nav', { right: 0 })
-					.to('nav', { height: '100vh' }, '-=.1')
+					.to('nav', { height: '105vh' }, '-=.1')
 					.to('nav ul li a', { opacity: 1, pointerEvents: 'all', stagger: .2 }, '-=.8')
 					.to('.close', { opacity: 1, pointerEvents: 'all' }, "-=.8")
-					.to('nav h2', { opacity: 1 }, '-=1');
+					.to('nav h2', { opacity: 1 }, '-=1')
+					
 			}
 		});
 
@@ -31,16 +35,14 @@ function Head() {
     <div className="navbar">
 		<div className="container1">
 			<img src={logo} className="logo" />
-			<h1 className="mainlogo">KOORA</h1>
+			<h1 className="mainlogo">TAKWIRA</h1>
 		</div>
 		<div className="container">
 			<div className="bars"></div>
 		</div>
-	
+
 
 	<nav id="navdiv">
-		
-
 		<div className="close">
 			<div></div>
 		</div>
