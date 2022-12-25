@@ -52,8 +52,8 @@ function Head() {
 		</ul>
 	</nav>
 	
-
     </div>
+	
   );
 }
 
