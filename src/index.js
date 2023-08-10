@@ -9,13 +9,10 @@ import Loading from './components/loading';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
     <Loading></Loading>
     <Home></Home>
-    <SectionOne></SectionOne>
-    <SectionOne></SectionOne>
-    </React.StrictMode>
-  
+    <SectionOne />
+  </React.StrictMode>
 );
 
 
